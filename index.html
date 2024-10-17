@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Español</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Restaurante Español</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#comida">Comida</a></li>
+            <li><a href="#bebidas">Bebidas</a></li>
+            <li><a href="#postres">Postres</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="comida">
+            <h2>Comida</h2>
+            <div class="producto">
+                <a href="producto-paella.html" target="_blank">
+                    <img src="paella.jpg" alt="Paella">
+                    <h3>Paella</h3>
+                    <p>Deliciosa paella de mariscos.</p>
+                    <p>Precio: 15.00 €</p>
+                </a>
+            </div>
+            <div class="producto">
+                <a href="producto-tortilla.html" target="_blank">
+                    <img src="Tortilla.jpeg" alt="Tortilla Española">
+                    <h3>Tortilla Española</h3>
+                    <p>Clásica tortilla de patatas.</p>
+                    <p>Precio: 8.00 €</p>
+                </a>
+            </div>
+            <div class="producto">
+                <a href="gazpacho.html" target="_blank">
+                    <img src="gazpacho.jpeg" alt="Gazpacho">
+                    <h3>Gazpacho</h3>
+                    <p>Sopa fría de tomate y verduras.</p>
+                    <p>Precio: 6.00 €</p>
+                </a>
+            </div>
+        </section>
+
+        <section id="bebidas">
+            <h2>Bebidas</h2>
+            <div class="producto">
+                <a href="producto-sangria.html" target="_blank">
+                    <img src="sangria.png" alt="Sangría">
+                    <h3>Sangría</h3>
+                    <p>Bebida tradicional española.</p>
+                    <p>Precio: 5.00 €</p>
+                </a>
+            </div>
+            <div class="producto">
+                <a href="producto-agua.html" target="_blank">
+                    <img src="agua.jpg" alt="Agua Mineral">
+                    <h3>Agua Mineral</h3>
+                    <p>Agua mineral fresca.</p>
+                    <p>Precio: 2.00 €</p>
+                </a>
+            </div>
+            <div class="producto">
+                <a href="producto-tinto.html" target="_blank">
+                    <img src="tinto.jpg" alt="Tinto de Verano">
+                    <h3>Tinto de Verano</h3>
+                    <p>Mezcla de vino tinto y refresco de limón.</p>
+                    <p>Precio: 4.00 €</p>
+                </a>
+            </div>
+        </section>
+
+        <section id="postres">
+            <h2>Postres</h2>
+            <div class="producto">
+                <a href="producto-flan.html" target="_blank">
+                    <img src="flan.jpg" alt="Flan">
+                    <h3>Flan</h3>
+                    <p>Flan casero con caramelo.</p>
+                    <p>Precio: 4.00 €</p>
+                </a>
+            </div>
+            <div class="producto">
+                <a href="producto-churros.html" target="_blank">
+                    <img src="churros.jpg" alt="Churros">
+                    <h3>Churros</h3>
+                    <p>Churros recién hechos con chocolate.</p>
+                    <p>Precio: 3.50 €</p>
+                </a>
+            </div>
+            <div class="producto">
+                <a href="producto-crema.html" target="_blank">
+                    <img src="crema.jpg" alt="Crema Catalana">
+                    <h3>Crema Catalana</h3>
+                    <p>Postre con una capa de azúcar caramelizada.</p>
+                    <p>Precio: 5.00 €</p>
+                </a>
+            </div>
+        </section>
+
+        <div id="carrito">
+            <h2>Carrito</h2>
+            <ul id="lista-carrito"></ul>
+            <p id="total"></p>
+        </div>
+
+        <div class="codigo-qr">
+            <h2>Escanea el QR para acceder a la página</h2>
+            <img src="código de página.png" alt="Código QR" width="150" height="150">
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Restaurante Español</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
